@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cXML SYSTEM "http://svcdev3.ariba.com/schemas/cXML/1.2.028/InvoiceDetail.dtd">
+<InvoiceDetailRequest>
+	<InvoiceDetailRequestHeader invoiceDate="2016-02-16T08:51:08+05:30"
+		invoiceID="1602" invoiceOrigin="supplier" operation="new" purpose="standard">
+		<InvoiceDetailHeaderIndicator />
+		<InvoiceDetailLineIndicator />
+		<InvoicePartner>
+			<Contact role="remitTo">
+				<Name xml:lang="en-US">jUnitOrg - VezTHqFU56aefdcea3461a12</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City>Arkansas City</City>
+					<State>AR</State>
+					<PostalCode>71630</PostalCode>
+					<Country isoCountryCode="US">United States</Country>
+				</PostalAddress>
+			</Contact>
+		</InvoicePartner>
+		<InvoicePartner>
+			<Contact role="from">
+				<Name xml:lang="en-US">BR_SP</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City cityCode="061">Sao Paulo</City>
+					<Municipality municipalityCode="3550308">Sao Paulo</Municipality>
+					<State isoStateCode="BR-SP">Sao Paulo</State>
+					<PostalCode>71639999</PostalCode>
+					<Country isoCountryCode="BR">Brazil</Country>
+				</PostalAddress>
+			</Contact>
+			<IdReference domain="provincialTaxID" identifier="12347848" />
+		</InvoicePartner>
+		<InvoicePartner>
+			<Contact role="billFrom">
+				<Name xml:lang="en-US">jUnitOrg - VezTHqFU56aefdcea3461a12</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City />
+					<State>CA</State>
+					<Country isoCountryCode="US">United States</Country>
+				</PostalAddress>
+			</Contact>
+		</InvoicePartner>
+		<InvoicePartner>
+			<Contact role="soldTo">
+				<Name xml:lang="en-US">jUnitOrg - faJ4fo2I56aefdd9a3461a13</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City cityCode="061">Sao Paulo</City>
+					<Municipality municipalityCode="3550308">Sao Paulo</Municipality>
+					<State isoStateCode="BR-SP">Sao Paulo</State>
+					<PostalCode>94087777</PostalCode>
+					<Country isoCountryCode="BR">Brazil</Country>
+				</PostalAddress>
+			</Contact>
+		</InvoicePartner>
+		<InvoiceDetailShipping>
+			<Contact role="shipFrom">
+				<Name xml:lang="en-US">jUnitOrg - VezTHqFU56aefdcea3461a12</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City>Arkansas City</City>
+					<State>AR</State>
+					<PostalCode>71630</PostalCode>
+					<Country isoCountryCode="US">United States</Country>
+				</PostalAddress>
+			</Contact>
+			<Contact role="shipTo">
+				<Name xml:lang="en-US">jUnitOrg - faJ4fo2I56aefdd9a3461a13</Name>
+				<PostalAddress>
+					<Street>jUnitDummy</Street>
+					<Street />
+					<Street />
+					<Street />
+					<City cityCode="061">Sao Paulo</City>
+					<Municipality municipalityCode="3550308">Sao Paulo</Municipality>
+					<State isoStateCode="BR-SP">Sao Paulo</State>
+					<PostalCode>94080000</PostalCode>
+					<Country isoCountryCode="BR">Brazil</Country>
+				</PostalAddress>
+			</Contact>
+		</InvoiceDetailShipping>
+		<Extrinsic name="buyerVatID">99999999000190</Extrinsic>
+		<Extrinsic name="supplierVatID">99999999000197</Extrinsic>
+		<Extrinsic name="invoiceSourceDocument">ExternalPurchaseOrder</Extrinsic>
+		<Extrinsic name="invoiceSubmissionMethod">Online</Extrinsic>
+		<Extrinsic name="punchinContractInvoice">no</Extrinsic>
+		<Extrinsic name="isNFSe">yes</Extrinsic>
+		<Extrinsic name="serviceCode">
+			<Classification domain="SaoPauloServiceCode">66887</Classification>
+		</Extrinsic>
+		<Extrinsic name="rpsType">RPS</Extrinsic>
+		<Extrinsic name="rpsSeries">HBUND</Extrinsic>
+		<Extrinsic name="rpsNumber">55</Extrinsic>
+
+	</InvoiceDetailRequestHeader>
+	
+</InvoiceDetailRequest>
