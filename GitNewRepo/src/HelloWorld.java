@@ -9,5 +9,10 @@ public class HelloWorld {
 		System.out.println("added hello world statement");
 		System.out.println(new Date());
 	}
+	
+	
+	void test(){
+		
+	}
 
 }
